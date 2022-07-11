@@ -348,6 +348,9 @@ footer {
   font-weight: bold;
   color: var(--bg-color);
 }
+ul{
+  list-style: none;
+}
 
 .footer-github > a {
   color: var(--bg-color);
@@ -366,7 +369,9 @@ footer {
   position: relative;
   top: 3px;
 }
-
+pre{
+  margin-bottom: 50px;
+}
 @media screen and (max-width: 1000px) {
   .wrapper {
     width: 100%;
@@ -468,10 +473,19 @@ footer {
   .footer-github {
     margin: 20px 0;
   }
-  @media screen and (max-width: 460px) {
+  p{
+    text-align: left;
+  }
+  /* @media screen and (max-width: 460px) {
     pre{
       margin: 0;
       font-size: 14px;
     }
-  }
+  } */
+
+}
+.we{
+  font-weight: 100;
+  margin: 20px 0 5px 0;
+  text-align: left;
 }
